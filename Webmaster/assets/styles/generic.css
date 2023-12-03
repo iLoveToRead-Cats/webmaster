@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .gridContainer {
+    border: 2px solid black;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+  
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 6% 80% 10%;
+  }
+  
+  .Header {
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    text-align: center;
+    color: cornflowerblue;
+    grid-column: 1/4;
+  }
+  
+  .Aside1 {
+    border-style: solid;
+    border-color: deepskyblue;
+    border-width: 5px;
+    text-align: center;
+    padding-top: 15px;
+    color: cornflowerblue;
+  }
+  
+  .Aside2 {
+    border-style: solid;
+    border-color: deepskyblue;
+    border-width: 5px;
+    text-align: center;
+  
+    color: cornflowerblue;
+  }
+  
+  .Body {
+    border-style: solid;
+    border-color: gold;
+    border-width: 5px;
+    text-align: center;
+  
+    color: cornflowerblue;
+  }
+  
+  .Footer {
+    border-style: solid;
+    border-color: mediumorchid;
+    border-width: 5px;
+    text-align: center;
+    grid-column: 1/4;
+    color: cornflowerblue;
+  }
+  
+  
+  .logo{
+      width: 100px;
+      border-radius: 50%;
+      box-shadow: 1px 1px 11px 1px black;
+  }
+  
+  .Footer a{
+    text-decoration: none;
+    color: rgb(25, 56, 34);
+  
+  }
+  .Footer i{
+   
+    color: rgb(25, 56, 34);
+  
+  }
+  .Footer a:visited{
+  
+    color: rgb(25, 56, 34);
+  
+  }
+  .Footer a:hover{
+    font-size: 22px;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+  
+  }
